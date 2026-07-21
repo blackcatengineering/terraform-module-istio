@@ -1,7 +1,7 @@
 variable "istio_version" {
   description = "Istio version to install (e.g., '1.20.0')"
   type        = string
-  default     = "1.20.0"
+  default     = "1.30.3"
 }
 
 variable "enable_ambient" {
